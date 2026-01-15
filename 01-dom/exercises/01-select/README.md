@@ -8,7 +8,7 @@ You can find the answers in the screenshot below. Do not worry if the line numbe
 
 Final result:
 
-![select](./screenshots/select.png)
+![select](../../../public/screenshots/select.png)
 
 <details>
   <summary>Don't know how to get started?</summary>
