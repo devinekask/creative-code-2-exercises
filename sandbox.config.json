@@ -1,4 +1,5 @@
 {
   "template": "static",
-  "view": "browser"
+  "view": "browser",
+  "module": "/README.md"
 }
