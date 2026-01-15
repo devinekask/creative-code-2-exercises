@@ -1,0 +1,183 @@
+:root {
+  --color-primary: #f0fd72;
+  --color-secundary: #e6e6e6;
+  --color-black: black;
+  --color-dark: #3d3d3a;
+  --color-light: white;
+
+  --background-color: var(--color-dark);
+
+  --fs-0: 1.2rem;
+  --fs-1: 1.3rem;
+  --fs-2: 1.5rem;
+  --fs-3: 1.7rem;
+  --fs-4: 2rem;
+  --fs-5: 2.5rem;
+  --fs-6: 8rem;
+
+  --sp-0: 0.3rem;
+  --sp-1: 0.5rem;
+  --sp-2: 0.75rem;
+  --sp-3: 1rem;
+  --sp-4: 1.3rem;
+  --sp-5: 1.7rem;
+  --sp-6: 2.5rem;
+  --sp-7: 4rem;
+  --sp-8: 5rem;
+  --sp-9: 8rem;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--color-black);
+}
+
+.signin, .signin:visited {
+  letter-spacing: var(--sp-0);
+  padding: var(--sp-1) var(--sp-3);
+  font-size: var(--fs-0);
+  color: var(--color-secundary);
+  text-decoration: none;
+  border-left: 1px solid var(--color-secundary);
+  margin: 0 var(--sp-3);
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  padding: var(--sp-4) 0;
+}
+
+input {
+  opacity: 1;
+  background: var(--color-dark);
+  outline: 0;
+  border: none;
+  padding: var(--sp-1) var(--sp-3);
+  font-size: var(--fs-0);
+  color: var(--color-light);
+  border-radius: 1rem;
+}
+
+header {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .85), transparent 100%), url('../img/headerimg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 100vh;
+}
+
+.episode-short {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: var(--color-secundary);
+  margin: auto 0 var(--sp-8) 0;
+  width: 90%;
+  font-size: var(--fs-2);
+}
+
+h1 {
+  font-size: var(--fs-6);
+  color: var(--color-secundary);
+  font-weight: bold;
+  margin: var(--sp-7);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link {
+  font-size: var(--fs-3);
+  color: var(--color-secundary);
+  padding: var(--sp-2);
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: var(--color-primary);
+}
+
+main {
+  font-size: var(--fs-4);
+  color: var(--color-secundary);
+  width: 90%;
+  margin: var(--sp-8) auto;
+}
+
+section {
+  margin-bottom: var(--sp-5);
+}
+
+.episode {
+  font-size: var(--fs-2);
+}
+
+.subtitle {
+  font-size: var(--fs-5);
+}
+
+.button {
+  background-color: var(--color-primary);
+  padding: var(--sp-1);
+  text-decoration: none;
+  display: block;
+  margin: var(--sp-1) 0;
+  display: flex;
+  align-items: center;
+}
+
+.button:visited {
+  color: var(--color-dark);
+}
+
+.button::before {
+  content: '\025B8';
+  margin-right: var(--sp-2);
+  font-size: var(--fs-5);
+  color: var(--color-dark);
+}
+
+.season-title {
+  font-size: var(--fs-4);
+  margin-bottom: var(--sp-3);
+}
+
+.episode__item {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--fs-1);
+  margin-bottom: var(--sp-6);
+}
+
+.episode__title {
+  font-size: var(--fs-3);
+  text-transform: uppercase;
+  margin: var(--sp-1) 0 var(--sp-0) 0;
+}
+
+.episode__meta {
+  color: var(--color-primary);
+  display: flex;
+  gap: var(--sp-3);
+}
+
+.episode__meta a {
+  color: var(--color-primary);
+}
