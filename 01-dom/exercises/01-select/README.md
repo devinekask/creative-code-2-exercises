@@ -8,3 +8,16 @@ You can find the answers in the screenshot below. Do not worry if the line numbe
 
 Final result:
 ![select](./screenshots/select.png);
+
+<details>
+  <summary>Click to expand this section</summary>
+  
+### Hidden Content
+
+  Here is the content that was hidden. You can include:
+
+* Bullet points
+* Images
+* [Links](https://google.com)
+  
+</details>
