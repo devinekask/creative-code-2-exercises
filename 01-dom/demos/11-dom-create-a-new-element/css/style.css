@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  
+}
+html{
+  font-size: 62.5%;
+  box-sizing: inherit;
+}
+
+body{
+  font-family: "Arial", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+.header__title{
+  background-color: red;
+  color: white;
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+.header__subtitle{
+  background-color: blue;
+  padding: 1rem;
+  color: white;
+  font-size: 2rem;
+}

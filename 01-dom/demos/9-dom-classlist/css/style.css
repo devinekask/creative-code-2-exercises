@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  
+}
+html{
+  box-sizing: inherit;
+}
+
+.title{
+  background-color: red;
+  color: white;
+  padding: 2rem;
+}
+
+.title--blue{
+  background-color: blue;
+}
