@@ -10,14 +10,12 @@ Final result:
 ![select](./screenshots/select.png);
 
 <details>
-  <summary>Click to expand this section</summary>
+  <summary>Don't know how to get started?</summary>
   
-### Hidden Content
-
-  Here is the content that was hidden. You can include:
-
-* Bullet points
-* Images
-* [Links](https://google.com)
+  - Open `script.js`
+  - Read the comments inside the file
+  - Use the methods we have learned so far to answer the questions
+  - For example, to select an element by its ID, use `document.queySelector('#my-id')`
+  - To select elements by their class, use `document.querySelectorAll('.my-class')`
   
 </details>
