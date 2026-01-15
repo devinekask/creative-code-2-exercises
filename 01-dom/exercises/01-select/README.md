@@ -7,7 +7,7 @@ Take a look at `script.js` and answer the questions inside of it using the metho
 You can find the answers in the screenshot below. Do not worry if the line numbers do not match.
 
 Final result:
-![select](./screenshots/select.png);
+![select](/screenshots/select.png);
 
 <details>
   <summary>Don't know how to get started?</summary>
